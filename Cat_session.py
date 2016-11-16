@@ -28,13 +28,6 @@ class Cat_session(object):#parent class for this pseudo-API
 		return bs(self.driver.page_source, 'lxml')
 
 
-	def interpreter(self,*args):
-		print('This is the command: %s' % (args))
-		'''if 'Search' in args:
-			x = args.split('')
-			return self.prod_s(x[1])'''
-
-
 	def start(self):#login method
 		self.driver.get('https://accounts.crystalcommerce.com/users/sign_in')
 		element = self.driver.find_element_by_id('user_email')
