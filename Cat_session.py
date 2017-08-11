@@ -4,6 +4,7 @@ from selenium.webdriver.common.keys import Keys
 import getpass
 import sys, re
 import time
+#example of code
 
 text_cred = text_l('C:\\Users\\Owner\\Documents\\Important\\catcred.txt')
 class Cat_session(object):#parent class for this pseudo-API
